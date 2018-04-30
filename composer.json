@@ -1,0 +1,20 @@
+{
+  "name": "peppelg/MultiProto",
+  "description": "MultiProto",
+  "type": "project",
+  "license": "AGPLV3",
+  "minimum-stability": "dev",
+  "require": {
+    "danog/madelineproto": "dev-master",
+    "peppelg/ez-tg": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/danog/phpseclib"
+    }
+  ],
+  "autoload": {
+    "files": ["src/MultiProto.php"]
+  }
+}
