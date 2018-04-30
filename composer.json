@@ -4,8 +4,7 @@
   "type": "project",
   "license": "AGPL-3.0-only",
   "require": {
-    "danog/madelineproto": "dev-master",
-    "peppelg/ez-tg": "dev-master"
+    "danog/madelineproto": "*"
   },
   "repositories": [
     {
