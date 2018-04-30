@@ -1,6 +1,8 @@
 # MultiProto
 Installazione
 -------------
-    composer require peppelg/multiproto
+    echo '{ }' > composer.json
+    composer config minimum-stability dev
+    composer require peppelg/multiproto:dev-master
     
 Guarda gli esempi ,,adios....---,,,...
