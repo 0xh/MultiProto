@@ -1,5 +1,6 @@
 <?php
-require_once 'vendor/autoload.php';
+//require_once 'vendor/autoload.php';          da usare per composer
+require_once 'MultiProto.phar';              //prima scarica Multiproto.phar
 $MultiProto = new MultiProto(glob('session/*.madeline'));
 $EzTGCallback = function($update, $EzTG) use($MultiProto) {
   if (isset($update->message->text) and $update->message->text == 'saluta') { //se il bot riceve saluta
